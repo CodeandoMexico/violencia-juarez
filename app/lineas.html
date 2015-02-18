@@ -66,7 +66,7 @@ var svg = d3.select("body")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("lines.csv", function(error, data) {
+d3.csv("data/lines.csv", function(error, data) {
     data.forEach(function(d) {
 		d.date = parseDate(d.date);
 		d.price = +d.price;
@@ -96,6 +96,7 @@ d3.csv("lines.csv", function(error, data) {
             .attr("d", priceline(d.values));
 
         // Add the Legend
+        /*
         svg.append("text")
             .attr("x", (legendSpace/2)+i*legendSpace)  // space legend
             .attr("y", height + (margin.bottom/2)+ 5)
@@ -114,6 +115,7 @@ d3.csv("lines.csv", function(error, data) {
                 d.active = active;
                 })  
             .text(d.key); 
+        */
 
     });
 
