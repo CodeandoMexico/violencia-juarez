@@ -22,10 +22,9 @@
   <!-- endbuild -->
   <script type="text/javascript">
   function resizeIFrame() {
-    var iFrameID = document.getElementById('personajesIFrame');
+    var iFrameID = document.getElementById('profilesIFrame');
     if(iFrameID) {
             // here you can make the height, I delete it first, then I make it again
-            
             iFrameID.height = "";
             iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
           }   
@@ -40,7 +39,7 @@
 
       <div class="container section-1">
         <div class="header">
-          <h3 class="text-muted">Evolución de la violencia en Cd. Juárez, Chihuahua</h3>
+          <h3 class="text-muted">Violence Evolution in Ciudad Juárez, Mexico</h3>
           <p class="codeando">
             En colaboración con <a href="http://codeandomexico.org">Codeando México</a>
           </p>
@@ -49,30 +48,30 @@
         <div class="row marketing">
           <div class="col-lg-12">
             <p class="overview">
-              En los años 90s los feminicidios de mujeres trabajadoras de la industria de la maquila en Ciudad Juarez atrajeron la atención internacional. More than 300 women were killed between 1993 and 2005, according to Amnesty International. Pero los residentes de esta ciudad norteña nunca se imaginaron que entre el 2007 y el 2010, la ciudad se volvería la capital mundial del crimen, cuando una guerra entre los cárteles de Juárez y Sinaloa, cobraron la vida de más de 11 mil personas, la mayoria jovenes.</p>
+              Between 1990-2005 the murders of more than 300 women made this border Mexican city infamous. Most of the victims were young maquila workers, nabbed from the streets to not be seen again, their bodies dumped in the city’s outskirts.  But Juarez agony got worse between 2007-2010, when the city became the fighting ground for the Juarez and Sinaloa cartels who battled for control of trafficking routes. More than 11 thousand people, mostly youth, died in the conflict.  The city became the world’s murder capital, with 250 homicides per month in a city of 1.5 million.</p>
 
             <p class="overview">
-              En el año 2010 la ciudad tocó fondo. Llegó a 250 homicidios por mes en una ciudad de 1.5 millones de habitantes. Pero el principio del fin comenzó el 31 de enero del 2010. En una pequeña fiesta de jóvenes, en un barrio de trabajadores de la maquila, irrumpió un comando armado y tomó la vida de 11 jovenes y 4 adultos.  Las víctimas fueron confundidas con vendedores de drogas por el grupo criminal La Línea del Cartel de Juarez. Resultaron ser sólo estudiantes.</p>
+              Then in January 2010, the city hit bottom. On January 31, 2010, during a youth gathering at a working class neighborhood of maquila workers, a killing commando  busted in and murdered 11 youth and four adults. Juarez’s La Linea cartel believed they belonged to an enemy group, but in the end they made a mistake, the youth were students and not sicarios.</p>
 
             <p class="overview">
-              El 11 de Febrero del 2010, una de las madres de dos de las víctimas puso el dedo en la herida. Luz María Dávila increpó al entonces presidente de la República, Felipe Calderón, diciendo: </p>
+              On February 11, 2010, the mother of two of the young victims challenged then President Felipe Calderon who came to visit Juarez to face the families after the massacre: </p>
 
-            <p class="overview-quote">"Yo no le puedo decir Bienvenido, porque para mi no lo es, nadie lo es. Porque aquí por más de dos años que se están cometiendo asesinatos. Se están cometiendo muchas cosas y nadie hace nada."</p>
+            <p class="overview-quote">"I cannot welcome you here, because to me you are not welcome. None of you are welcome. Because for more than two years, we have seen murders here. Many things have occurred and nobody has done anything to stop it."</p>
 
-            <p class="overview">Y eso era verdad, los asesinatos en Juárez iban en aumento, llegando a su punto máximo en el 2010.</p>
+            <p class="overview">And that was true. Mayhem in Juarez was increasing. It reached the limit in 2010.</p>
             </pra>
 
           <div class="row">
             <div class="col-lg-12">
-              <h2>Homicidios por año</h2>
-              <p>Detrás de esta violencia había una serie de personajes implicados, algunos políticos de trayectoria, otros ex-policías. Uno de ellos era el Diego, el líder de La Línea, los pistoleros del Cártel de Juárez.  ¿Qué otros personajes estuvieron implicados en esta historia? ¿Cómo sucedieron las cosas? Esta herramienta busca dar un apoyo visual a los eventos de esos años.</p>
+              <h2>Homicides per year año</h2>
+              <p>Loremp ipsum</p>
               <iframe src="/homicidios.html" frameborder="0" class="col-lg-12 col-md-12 col-sm-12" height="350px"></iframe>
             </div>
           </div>
 
           <div class="row">
             <div class="col-lg-12">
-              <h2>Homicidios acumulados</h2>
+              <h2>Accumulated Homicides</h2>
               <iframe src="/acumulados.html" frameborder="0" class="col-lg-12 col-md-12 col-sm-12" height="350px"></iframe>
             </div>
           </div>
@@ -80,28 +79,28 @@
       </div>
     </div>
 
-    <!-- Personajes -->
+    <!-- Profiles -->
     <div class="container section-2" >
       <div class="row marketing">
-        <h2>Personajes</h2>
-        <iframe id="personajesIFrame" onload="resizeIFrame();" src="/personajes.html" frameborder="0" height="4300px" class="col-lg-12 col-md-12 col-sm-12" scrolling="no"></iframe>
+        <h2>Profiles</h2>
+        <iframe id="profilesIFrame" onload="resizeIFrame();" src="/personajes.html" frameborder="0" height="4300px" class="col-lg-12 col-md-12 col-sm-12" scrolling="no"></iframe>
       </div>
     </div>
 
-    <!-- Líneas del tiempo -->
+    <!-- Timelines -->
     <div class="container section-3" >
       <div class="row linea-tiempo">
-        <h2>Líneas del tiempo</h2>
+        <h2>Timelines</h2>
         <div class="col-lg-12">
           <ul class="nav nav-tabs" role="tablist" id="myTab">
-            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Evolución de la violencia</a></li>
-            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Sucesos sociales</a></li>
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Violence Evolution</a></li>
+            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Social Happenings</a></li>
           </ul>
 
           <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="home">
               <div class="container">
-                <h3>Evolución de la violencia</h3>
+                <h3>Violence Evolution</h3>
                 <ul class="timeline">
                   <!-- 1990 -->
                   <li id="1990">
@@ -109,20 +108,20 @@
                       <h4>1990</h4>
                     </div>
                   </li>
-                  <!-- Enero 1990 -->
-                  <li id="1990-ene">
+                  <!-- January 1990 -->
+                  <li id="1990-jan">
                     <div class="month">
-                      <h4>Enero</h4>
+                      <h4>January</h4>
                     </div>
                   </li>
                   <!-- 1 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-heading">
-                        <h4 class="timeline-title">Feminicidios</h4>
+                        <h4 class="timeline-title">Feminicides</h4>
                       </div>
                       <div class="timeline-body">
-                        <p>Juárez es conocida internacionalmente por los feminicidios, desapariciones y asesinatos brutales de mujeres.</p>
+                        <p>Juárez is internationally known for a string of disappearances and brutal murders of young women which began occurring in the early 90s. More than 300 women were killed between 1990 and 2005.</p>
                       </div>
                       <div class="timeline-image">
                           <img src="" />
@@ -136,10 +135,10 @@
                         <h4>2006</h4>
                       </div>
                     </li>
-                    <!-- Enero 2006 -->
-                    <li id="2006-ene">
+                    <!-- January 2006 -->
+                    <li id="2006-jan">
                       <div class="month">
-                        <h4>Enero</h4>
+                        <h4>January</h4>
                       </div>
                     </li>
                     <!-- 2 -->
@@ -147,44 +146,44 @@
 
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">2 o 3 Asesinatos Díarios</h4>
+                          <h4 class="timeline-title">2 or 3 Killings per day</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>La plaza estaba controlada aún por el Cartel de Juárez dirigido por Vicente Carrillo, se reportaban entre dos y tres asesinatos diarios.</p>
+                          <p>The city was controlled by the Juárez Cartel led by Vicente Carrillo. One to two murders were reported per day.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Noviembre 2006 -->
+                    <!-- November 2006 -->
                     <li id="2006-nov">
                       <div class="month">
-                        <h4>Noviembre</h4>
+                        <h4>November</h4>
                       </div>
                     </li>
                     <!-- 3 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Aumento de violencia</h4>
+                          <h4 class="timeline-title">Violence Arises</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>La ola de violencia empieza a ir en aumento y se registra en los homicidios que aumentaron en comparación con el 2005 un 10 por ciento, de acuerdo a estadísticas de la entonces Agencia Estatal de Investigaciones.</p>
+                          <p>The violence started to increase. Murders rose by 10 percent as compared to numbers for 2005, according to statistics of the then State Agency of Criminal Research.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Diciembre 2006 -->
-                    <li id="2006-dic">
+                    <!-- December 2006 -->
+                    <li id="2006-dec">
                       <div class="month">
-                        <h4>Diciembre</h4>
+                        <h4>December</h4>
                       </div>
                     </li>
                     <!-- 4 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Fosas Clandestinas</h4>
+                          <h4 class="timeline-title">Clandestine wells</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se informa que los crímenes que se presentan son de desaparecidos encontrados en fosas clandestinas fuera de la ciudad. Las corporaciones empiezan a infiltrarse aún más por el crimen organizado.</p>
+                          <p>First bodies of disappeared victims were found buried in clandestine hidden wells. Police units become more and more infiltrated with organized crime.</p>
                         </div>
                       </div>
                     </li>
@@ -194,71 +193,71 @@
                         <h4>2007</h4>
                       </div>
                     </li>
-                    <!-- Febrero 2007 -->
+                    <!-- February 2007 -->
                     <li id="2007-feb">
                       <div class="month">
-                        <h4>Febrero</h4>
+                        <h4>February</h4>
                       </div>
                     </li>
                     <!-- 5 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Percepción de Inseguridad</h4>
+                          <h4 class="timeline-title">Insecurity perception</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>La percepción ciudadana de inseguridad era de un 33 por ciento.</p>
+                          <p>Citizen perception of insecurity hit a high 33 percent.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Marzo 2007 -->
+                    <!-- March 2007 -->
                     <li id="2007-mar">
                       <div class="month">
-                        <h4>Marzo</h4>
+                        <h4>March</h4>
                       </div>
                     </li>
                     <!-- 6 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Balaceras</h4>
+                          <h4 class="timeline-title">Shootings</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se presentan balaceras en cruceros transitados y a plena luz del día.</p>
+                          <p>Shootings occur in highly transited streets and avenues and during daytime.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Junio 2007 -->
+                    <!-- June 2007 -->
                     <li id="2007-jun">
                       <div class="month">
-                        <h4>Junio</h4>
+                        <h4>June</h4>
                       </div>
                     </li>
                     <!-- 7 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Marchas Silenciosas</h4>
+                          <h4 class="timeline-title">Silent manifestations</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Empiezan las marchas silenciosas por la muerte de un estudiante, participan maestros, alumnos y padres de familia exigen mayor seguridad.</p>
+                          <p>Silent marches begin to be organized after the death of a university student. Professors, students and parents asked for better security.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Julio 2007 -->
+                    <!-- July 2007 -->
                     <li id="2007-jul">
                       <div class="month">
-                        <h4>Julio</h4>
+                        <h4>July</h4>
                       </div>
                     </li>
                     <!-- 8 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Toque de Queda</h4>
+                          <h4 class="timeline-title">Curfew</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>La policía municipal implementa el toque de queda "Después de las 10, en casa es mejor" porque los jóvenes empiezan a involucrarse en actividades delictivas y pandillas.</p>
+                          <p>Municipal police implement a curfew that begins at 10 pm.  The curfew helps prevent youth from participatinng in illicit and gang activities."After 10 PM, at home is better" because younglings start getting involved in delictive activities and gangs.</p>
                         </div>
                       </div>
                     </li>
@@ -266,10 +265,10 @@
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Asesinato de 5 policias</h4>
+                          <h4 class="timeline-title">Killing of 5 policemen</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se registra el asesinato de 5 policías de la Agencia Estatal de Investigaciones del departamento de robo de vehículos, los hombres fueron encajuelados.</p>
+                          <p>Five police from the stolen car section in the Policia Ministerial, or state police, are found murdered and stuffed in the trunk of a car.</p>
                         </div>
                       </div>
                     </li>
@@ -277,17 +276,17 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Narcomensajes</h4>
+                          <h4 class="timeline-title">Narcomessages</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Inicia la colocación de narcomensajes con cartulinas en los ejecutados indicando "La palabra se respeta" o "Para los que no la creen".</p>
+                          <p>Narco-messages are left on cardboad signs next to bodies of victims. Some of the messages read:  "Promises are respected" and "For those who do not not believe it."</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Agosto 2007 -->
-                    <li id="2007-ago">
+                    <!-- August 2007 -->
+                    <li id="2007-aug">
                       <div class="month">
-                        <h4>Agosto</h4>
+                        <h4>August</h4>
                       </div>
                     </li>
                     <!-- 11 -->
@@ -295,10 +294,10 @@
                       <div class="timeline-badge info"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">El Diego toma el control</h4>
+                          <h4 class="timeline-title">El Diego takes Control</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>José Antonio Acosta Hernández alías El Diego surge y toma el control del brazo armado del Cartel de Juárez denominado La Línea, e inicia el reclutamiento de jóvenes para infiltrarlos al narcotráfico.</p>
+                          <p>José Antonio Acosta Hernández, alías El Diego takes control of the Cartel de Juarez armed group "La Línea". He begins recruiting young followers.</p>
                         </div>
                       </div>
                     </li>
@@ -306,10 +305,10 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Método de muerte</h4>
+                          <h4 class="timeline-title">Method of Death</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Los cuerpos registran el cercenamiento de alguna extremidad, impactos de bala en la cabeza y maniatados con cinta canela, algunos eran envueltos en bolsas y otros encobijados.</p>
+                          <p>Bodies exhibiting extreme torture and handcuffed are found wrapped in plastic bags. </p>
                         </div>
                       </div>
                     </li>
@@ -317,10 +316,10 @@
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Levantones a la alza</h4>
+                          <h4 class="timeline-title"><i>Levantones</i> rise up</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se intensifican los levantones y las inhumaciones clandestinas, un caso el de Las Acequias donde se encontraron 12 cuerpos y se detuvieron a policías estatales como responsables.</p>
+                          <p>Kidnappings increase. In the Acequias upper-class neighborhood, 12 bodies are found. Members of the Ministerial police, or state police, are found guilty of those killings. </p>
                         </div>
                       </div>
                     </li>
@@ -328,61 +327,61 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Muertos: de 3 a 7 por día</h4>
+                          <h4 class="timeline-title">Deaths, from 3 to 7 per day</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>la cifra de ejecutados diarios aumenta de tres a siete.</p>
+                          <p>Daily murders rise from three to seven.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Septiembre 2007 -->
+                    <!-- September 2007 -->
                     <li id="2007-sep">
                       <div class="month">
-                        <h4>Septiembre</h4>
+                        <h4>September</h4>
                       </div>
                     </li>
                     <!-- 15 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Juárez: Ruta de Armas</h4>
+                          <h4 class="timeline-title">Juárez, Route for Arms</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Agencias norteamericanas identifican a Juárez como la ruta directa para el contrabando de armas, se introducen en un principio armas calibres 22 milímetros y 38 comercializar en el mercado negro.</p>
+                          <p>U.S. authorities  identify Juárez as a direct arms trafficking route from the United States for 22 mm and 38 mm guns.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Noviembre 2007 -->
+                    <!-- November 2007 -->
                     <li id="2007-nov">
                       <div class="month">
-                        <h4>Noviembre</h4>
+                        <h4>November</h4>
                       </div>
                     </li>
                     <!-- 16 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Empresarios piden intervención</h4>
+                          <h4 class="timeline-title">Directors of companies ask for intervention</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Exigen empresarios intervención federal.</p>
+                          <p>The business community asks for the Mexican Federal government to intervene in Juarez.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Diciembre 2007 -->
-                    <li id="2007-dic">
+                    <!-- December 2007 -->
+                    <li id="2007-dec">
                       <div class="month">
-                        <h4>Diciembre</h4>
+                        <h4>December</h4>
                       </div>
                     </li>
                     <!-- 17 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Delincuencia a la alza</h4>
+                          <h4 class="timeline-title">Crime rises</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Cierra el año con más de 9 mil autos robados, 60 pandillas operando en la ciudad y 306 homicidios.</p>
+                          <p>The year closes with 9 thousand cars reported stolen and 60 criminal gangs operating in the city.</p>
                         </div>
                       </div>
                     </li>
@@ -390,10 +389,10 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Nuevo sistema de justicia</h4>
+                          <h4 class="timeline-title">New system of justice</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se crean el nuevo sistema de justicia penal a través de los juicios orales.</p>
+                          <p>A new system of penal justice tailored after the U.S. is introduced.</p>
                         </div>
                       </div>
                     </li>
@@ -403,20 +402,20 @@
                         <h4>2008</h4>
                       </div>
                     </li>
-                    <!-- Enero 2008 -->
-                    <li id="2008-ene">
+                    <!-- January 2008 -->
+                    <li id="2008-jan">
                       <div class="month">
-                        <h4>Enero</h4>
+                        <h4>January</h4>
                       </div>
                     </li>
                     <!-- 19 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Empieza Narcoguerra</h4>
+                          <h4 class="timeline-title">Narcowar starts</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Inicia la narcoguerra y se intercalan con estrategias y tácticas de terror y maltrato que atemorizan a la población.</p>
+                          <p>The narco war begins to use tactics that terrorize the civilian population in the city.</p>
                         </div>
                       </div>
                     </li>
@@ -424,44 +423,44 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Miedo generalizado</h4>
+                          <h4 class="timeline-title">Generalized Fear</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>La ciudad se encaminaba a convertirse en un observatorio bélico, el mensaje de miedo empezaba a difundirse  primer mes ejecutan a 42 personas. Se rompen los pactos e inicia la matanza, la idea demostrar su fuerza por medio de la vía del terror.</p>
+                          <p>The city was observing the beginning of a war. Fear was spreading among city residents. This was the first month with a toll of 42 people murdered. </p>
                         </div>
                       </div>
                     </li>
-                    <!-- Febrero 2008 -->
+                    <!-- February 2008 -->
                     <li id="2008-feb">
                       <div class="month">
-                        <h4>Febrero</h4>
+                        <h4>February</h4>
                       </div>
                     </li>
                     <!-- 21 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Muertes de policias a la alza</h4>
+                          <h4 class="timeline-title">Deaths of Policemen rises</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Aumenta la matanza de policías.</p>
+                          <p>More police officers get killed.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Mayo 2008 -->
+                    <!-- May 2008 -->
                     <li id="2008-may">
                       <div class="month">
-                        <h4>Mayo</h4>
+                        <h4>May</h4>
                       </div>
                     </li>
                     <!-- 22 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Más muertos en Mayo que en el 2007</h4>
+                          <h4 class="timeline-title">More deaths in 2007</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>El número de policías muertos en ese mes 16 superó al del 2007 en donde se registraron en todo el año 14.</p>
+                          <p>16 policemen are killed this month, beating records in 2007 when 14 were killed.</p>
                         </div>
                       </div>
                     </li>
@@ -469,10 +468,10 @@
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Intervención del Ejército</h4>
+                          <h4 class="timeline-title">Army intervention</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Llegan 500 efectivos del Ejercito Mexicano para implementar el Operación Conjunta Chihuahua.</p>
+                          <p>500 Mexican Army troops arrive in the city to enforce the Joint Operation Chihuahua</p>
                         </div>
                       </div>
                     </li>
@@ -480,10 +479,10 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">No visitar Juárez</h4>
+                          <h4 class="timeline-title">Don't visit Juarez</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se envía exhorto por autoridades diplomáticas para que ciudadanos americanos no visiten ni viajen por Juárez.</p>
+                          <p>The U.S. State Department issues a travel advisory to U.S. citizens who want to visit Juarez.</p>
                         </div>
                       </div>
                     </li>
@@ -491,35 +490,34 @@
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Narcopintas</h4>
-                          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                          <h4 class="timeline-title">Narcomessages</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Surgen las narcopintas en bardas además de las mantas instaladas en puentes entre los grupos criminales donde se exponían listas de nombres de jefes policiacos y sus subalternos próximos a matar.</p>
+                          <p>Narco wall messages begin appearing all over the city. Both cartels list police officers who are to be killed soon.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Junio 2008 -->
+                    <!-- June 2008 -->
                     <li id="2008-jun">
                       <div class="month">
-                        <h4>Junio</h4>
+                        <h4>June</h4>
                       </div>
                     </li>
                     <!-- 26 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Colapsa Servicio Médico</h4>
+                          <h4 class="timeline-title">Medical Services Collapse</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se colapsa el Servicio Médico Forense de Ciudad Juárez y pese a la vigilancia militar las ejecuciones continúan.</p>
+                          <p>Medical services in the city collapse as even with military protection, narcos continue to attack medical installations.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Julio 2008 -->
+                    <!-- July 2008 -->
                     <li id="2008-jul">
                       <div class="month">
-                        <h4>Julio</h4>
+                        <h4>July</h4>
                       </div>
                     </li>
                     <!-- 27 -->
@@ -527,27 +525,27 @@
                       <div class="timeline-badge info"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Quita puercos</h4>
+                          <h4 class="timeline-title">"Quita Puercos"</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Surge el personaje del Quita puercos quien denunciaba a policías vinculados con el crimen organizado, la idea era ridiculizar a los del Cartel de Juárez porque los consideraban unos marranos por su manera de matar sin piedad.</p>
+                          <p>The "Eliminate Swine" Internet page appears. The page lists names of policemen working with the Juarez Cartel. It ridicule that Cartel, calling them pigs. The page was managed by the Sinaloa Cartel.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Agosto 2008 -->
-                    <li id="2008-ago">
+                    <!-- August 2008 -->
+                    <li id="2008-aug">
                       <div class="month">
-                        <h4>Agosto</h4>
+                        <h4>August</h4>
                       </div>
                     </li>
                     <!-- 28 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Narco manta: Cartel de Sinaloa</h4>
+                          <h4 class="timeline-title">Narco message: Sinaloa's Cartel</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Aparece la primer narcomanta, acciones con las que se pretendía infundir temor en la población tácticas relacionadas al Cartel de Sinaloa.</p>
+                          <p>First narco message appears in the city.</p>
                         </div>
                       </div>
                     </li>
@@ -555,44 +553,44 @@
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Robo de autos</h4>
+                          <h4 class="timeline-title">Stolen cars</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se incrementa el robo de autos un 46 por ciento (16 mil 905), en comparación con el 2007 que reportaron 9 mil 41, las marcas más demandadas fueron Nissan, Ford, Dodge y Honda modelos más requeridos Sentra, Máxima y Altima, después fueron las Suvs, Caravan de puertas corredizas que sirvieron para las balaceras y ejecuciones en la vía pública y las pick ups. Colores más comunes blanco, azul marino, verde y arena por ser los más comunes, también en su mayoría eran autos sin placas.</p>
+                          <p>The number of cars stolen each year jumped by 46 percent (16,905) in comparison with 2007, when 9,041 were reported stolen. Most car makes in demand by thieves were Nissan, Ford, Dodge, and the Honda models Sentra, Maxima and Altima, Others in demand are SUVS and Caravan types with sliding doors which killers prefered for hire shootouts and street firefights. The colors prefered were white, deep blue, green and sand.  None of the cars involved in criminal activity had license plates.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Septiembre 2008 -->
+                    <!-- September 2008 -->
                     <li id="2008-sep">
                       <div class="month">
-                        <h4>Septiembre</h4>
+                        <h4>September</h4>
                       </div>
                     </li>
                     <!-- 30 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Alto Calibre</h4>
+                          <h4 class="timeline-title">High Caliber</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>El departamento de balística de la Agencia Estatal de Investigaciones reporte homicidios con fusiles de alto asalto AK 47 y AR 15, escopetas calibre 25, .40, .45, 9 milímetros, 380 y 5.57 conocidas como "mata policías".</p>
+                          <p>The ballistics unit of the Policia Ministerial,state police, reported an increase in mortal attacks with high caliber assault rifles such as AK-47, AR-15, and high-caliber shotguns ranging from .40,.45, 9 mm, 380 and the infamous 5.57, which is known as "police killer", because it can penetrate bullet proof vests.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Diciembre 2008 -->
-                    <li id="2008-dic">
+                    <!-- December 2008 -->
+                    <li id="2008-dec">
                       <div class="month">
-                        <h4>Diciembre</h4>
+                        <h4>December</h4>
                       </div>
                     </li>
                     <!-- 31 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Aumenta robo</h4>
+                          <h4 class="timeline-title">Theft rises</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>el robo total de vehículos aumenta un 46 por ciento de 9 mil en 2007 sube a 16 mil y con un total de 41 ministeriales caídos. Mueren 71 policías.</p>
+                          <p>Total stolen cars count rises by 46 percent from 9 thousand in 2007 to 16 thousand this year.  A total of 41 police agents from the Ministerial Police, or state police, are reported killed. Thirty municipal policement were killed.</p>
                         </div>
                       </div>
                     </li>
@@ -602,139 +600,139 @@
                         <h4>2009</h4>
                       </div>
                     </li>
-                    <!-- Enero 2009 -->
-                    <li id="2009-ene">
+                    <!-- January 2009 -->
+                    <li id="2009-jan">
                       <div class="month">
-                        <h4>Enero</h4>
+                        <h4>January</h4>
                       </div>
                     </li>
                     <!-- 32 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Secuetro a la alza</h4>
+                          <h4 class="timeline-title">Kidnappings rise</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se triplico el secuestro, durante el 2007 se registraron 21 denuncias para el 2009 la cifra de denuncias hechas principalmente por empresarios fue 63 Febrero El domingo en ocho puntos estratégicos fueron colgadas igual número de "narcomantas", de manera sincronizada, frente a corporaciones policiacas, instalaciones militares, puentes y la Plaza del Periodista.</p>
+                          <p>In 2007 there were 21 reports of kidnappings. The number tripled by 2009, when 63 kidnappings were reported to authorities. Most of the victims were high level business leaders. </p>
                         </div>
                       </div>
                     </li>
-                    <!-- Marzo 2009 -->
+                    <!-- March 2009 -->
                     <li id="2009-mar">
                       <div class="month">
-                        <h4>Marzo</h4>
+                        <h4>March</h4>
                       </div>
                     </li>
                     <!-- 33 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Aumenta potencia policiaca</h4>
+                          <h4 class="timeline-title">Higher police power</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Autoridades federales, en conjunto con las estatales y municipales, reforzaron la Operación Conjunta Chihuahua, que llegó a contar con 7 mil 500 soldados y 2 mil 300 federales para custodiar las calles.</p>
+                          <p>Federal police with the municipal and state forces, collaborated on the Joint Operation Chihuahua. In the end 7,500 soldiers and 2,300 federal police officers were set to defend Juarez's streets.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Abril 2009 -->
-                    <li id="2009-abr">
+                    <!-- April 2009 -->
+                    <li id="2009-apr">
                       <div class="month">
-                        <h4>Abril</h4>
+                        <h4>April</h4>
                       </div>
                     </li>
                     <!-- 34 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Operativo Conjunto Chihuahua</h4>
+                          <h4 class="timeline-title">Chihuahua effort</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>En el Operativo Conjunto Chihuahua, en Ciudad Juárez se dio prioridad al combate del secuestro, la extorsión, el robo de vehículos con violencia, la extorsión telefónica y el asalto a comercios, por ser los delitos que más aquejan a la población. Se acuerdan estrategias contra el secuestro y la extorsión, se piensa en reformas y penas vitalicias a quienes cometan dichos delitos.</p>
+                          <p>In the Joint Operations Chihuahua, the city of Juarez prioritized combat against the most common crimes such as kidnapping, extorsion, car theft with violence, telephone extorsion and small business robberies. Reforms and lifetime prison terms were discussed as options to end the propensity of the crimes.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Mayo 2009 -->
+                    <!-- May 2009 -->
                     <li id="2009-may">
                       <div class="month">
-                        <h4>Mayo</h4>
+                        <h4>May</h4>
                       </div>
                     </li>
                     <!-- 35 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Más Secuestros</h4>
+                          <h4 class="timeline-title">More kidnappings</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se recrudece el secuestro.</p>
+                          <p>Kidnappings statistics go up.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Junio 2009 -->
+                    <!-- June 2009 -->
                     <li id="2009-jun">
                       <div class="month">
-                        <h4>Junio</h4>
+                        <h4>June</h4>
                       </div>
                     </li>
                     <!-- 36 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Hospitales de Sangre</h4>
+                          <h4 class="timeline-title">Blood Hospitals</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Por el alto número de homicidios y heridos de bala médicos piden seguridad en los hospitales, se asignan cuatro a los que se les llamo ‘Hospitales de Sangre’ a donde dirigían por seguridad a los heridos con arma de fuego.</p>
+                          <p>Because of the high number of homicides and wounded paramedics and doctors, the population asked for more security in hospitals.  Four city hospitals were baptized as "Bloody hospitals".</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Julio 2009 -->
+                    <!-- July 2009 -->
                     <li id="2009-jul">
                       <div class="month">
-                        <h4>Julio</h4>
+                        <h4>July</h4>
                       </div>
                     </li>
                     <!-- 37 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Robo con violencia, a la alza</h4>
+                          <h4 class="timeline-title">Theft with violence rises</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>El robo de vehículos con violencia aumentó hasta en un 120 por ciento en el primer semestre del 2009 comparativamente al mismo periodo del año pasado, ya que de enero a junio fueron hurtados a punta de pistola 962 vehículos, mientras que en el mismo periodo del 2008 fueron denunciados 420 casos.</p>
+                          <p>The number of stolen cars rises by 120 percent in the first semester of 2009, as compared to the same period in the previous year. Between January to June of that year, 962 vehicles where stolen during armed assaults as compared to 420 during the previous year.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Agosto 2009 -->
-                    <li id="2009-ago">
+                    <!-- August 2009 -->
+                    <li id="2009-aug">
                       <div class="month">
-                        <h4>Agosto</h4>
+                        <h4>August</h4>
                       </div>
                     </li>
                     <!-- 38 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Instalación de botones de pánico</h4>
+                          <h4 class="timeline-title">Panic buttons installed</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>El Colegio de Médicos solicita la instalación de botones de pánico, cámaras de circuito cerrado y vigilancia policiaca permanente, demandan vigilancia permanente de militares en áreas de urgencias por temor a nuevos atentados de grupos criminales.</p>
+                          <p>The Medical Association asks for the installation of panic buttons, closed circuit cameras and permanent police and military oversight in hospital emergency areas because of the fear of getting attacked by criminal groups.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Diciembre 2009 -->
-                    <li id="2009-dic">
+                    <!-- December 2009 -->
+                    <li id="2009-dec">
                       <div class="month">
-                        <h4>Diciembre</h4>
+                        <h4>December</h4>
                       </div>
                     </li>
                     <!-- 39 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Llegada de 2 mil elementos</h4>
+                          <h4 class="timeline-title">2 thousand elements reinforcement</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Anuncian la llegada de 2 mil elementos de la Policía Federal para reforzar la ciudad y acabar con las denuncias de abusos cometidos por los soldadosA través de posters colocados en distintas tiendas de abarrotes la Operación Conjunta Chihuahua (OCCH) ofrece dos millones de pesos a quien proporcione información que permita la captura de José Antonio Torres Marrufo y José Antonio Acosta Hernández, señalados por más de mil homicidios e integrantes de la delincuencia organizada, por cada uno se ofrecía un millón. Cierra el año con 2 mil 657 víctimas, cifra que supera en un 63 por ciento a la que se registró en el 2008, cuando le quitaron la vida a mil 623 personas, estableció la Subprocuraduría de Justicia en la Zona Norte. Mueren 66 policías.</p>
+                          <p>Two thousand members of the Federal Police are brought to reinforce security for the city and take control from the army which was awash with citizen reports of abuses. Through posters pasted around city stores, Joint Operation Chihuahua begins by offering US$133 thousand for anyone providing information that leads to the capture of José Antonio Torres Marrufo, then the leader of the Sinaloa Cartel, and José Antonio Acosta Hernández, El Diego, of the Juarez Cartel. The year closes with 2,657 victims, a 63 percent hike over numers in 2008, which listed1623 homicides. More than 60 policemen were killed.</p>
                         </div>
                       </div>
                     </li>
@@ -744,20 +742,20 @@
                         <h4>2010</h4>
                       </div>
                     </li>
-                    <!-- Enero 2010 -->
-                    <li id="201-ene">
+                    <!-- January 2010 -->
+                    <li id="201-jan">
                       <div class="month">
-                        <h4>Enero</h4>
+                        <h4>January</h4>
                       </div>
                     </li>
                     <!-- 40 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">HouseJacking: Robo con violencia</h4>
+                          <h4 class="timeline-title">HouseJacking: Theft with violence</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Inician los housejacking delincuentes armados amenazan a niños y adultos por igual para robar su hogar con lujo de violencia, en algunas ocasiones son violadas las mujeres.</p>
+                          <p>Home invasions increased. Children as well as adults are atacked in these robberies of homes with violence. Rapes also occurred during these incidents. </p>
                         </div>
                       </div>
                     </li>
@@ -769,31 +767,31 @@
                           <h4 class="timeline-title">Villas de Salvacar</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se registra la masacre de 15 personas en Villas de Salvarcar, se trataba en su mayoría de estudiantes del CBTIS 128 que festejaban un cumpleaños y fueron confundidos por gente de La Línea como integrantes de un grupo rival contrario. El crimen fue ordenado por El Diego.</p>
+                          <p>15 people are murdered at Villas de Salvacar. Most of the victs were students a CBTIS 128, a local high school. The killers mistook the birthday party as one organized by members of the AAs a rival gang of the killers who belonged to the Juarez Cartel La Línea. The attack was ordered by El Diego.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Febrero 2010 -->
+                    <!-- February 2010 -->
                     <li id="2010-feb">
                       <div class="month">
-                        <h4>Febrero</h4>
+                        <h4>February</h4>
                       </div>
                     </li>
                     <!-- 42 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Caos</h4>
+                          <h4 class="timeline-title">Chaos</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Ciudadanía vivía en medio de una ciudad sin estado de Derecho, no había ley y se registraban homicidios a todas horas y en todo lugar. Jueces y magistrados empiezan a ser amenazados y piden mayor seguridad.</p>
+                          <p>Local residents were caught in the middle of the criminal confrontation of two cartels. Homicides could take place anywhere, anytime. Judges were under threat and began to ask for police assistance. </p>
                         </div>
                       </div>
                     </li>
-                    <!-- Marzo 2010 -->
+                    <!-- March 2010 -->
                     <li id="2010-mar">
                       <div class="month">
-                        <h4>Marzo</h4>
+                        <h4>March</h4>
                       </div>
                     </li>
                     <!-- 43 -->
@@ -801,51 +799,51 @@
                       <div class="timeline-badge info"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Empleados del consulado</h4>
+                          <h4 class="timeline-title">Consulate Employees</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Empleados del consulado estadounidense son atacados al salir de una fiesta infantil, después de que un grupo criminal confundiera el blanco a eliminar, esta equivocación expuesta por funcionarios del FBI trajo la intromisión sobre la violencia de las autoridades norteamericanas. En el auto viajaban el padre de familia y tres menores de 2, 4 y 7 años de edad quienes observaron como mataron a su padre.</p>
+                          <p>U.S. Consulate officials are attacked after a children's birthday party. Three people are killed. </p>
                         </div>
                       </div>
                     </li>
-                    <!-- Abril 2010 -->
-                    <li id="2010-abr">
+                    <!-- April 2010 -->
+                    <li id="2010-apr">
                       <div class="month">
-                        <h4>Abril</h4>
+                        <h4>April</h4>
                       </div>
                     </li>
                     <!-- 44 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Temor en las filas policiacas</h4>
+                          <h4 class="timeline-title">Fear in the police</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Policías municipales sienten temor tras afirmar "Antes se respetaba a la familia, ahora ya no importa quién esté, llegan y agarran parejo, no les importa si llevan niños o si matan a la esposa".</p>
+                          <p>Municipal Police members fear the new killings do not respect anybody. "Before nobody touched the family. Now it does not matter who is there, they come and kill everyone, the kids and the wife," said one agent.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Mayo 2010 -->
+                    <!-- May 2010 -->
                     <li id="2010-may">
                       <div class="month">
-                        <h4>Mayo</h4>
+                        <h4>May</h4>
                       </div>
                     </li>
                     <!-- 45 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Fuerzas amuralladas</h4>
+                          <h4 class="timeline-title">Walled Force</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Los militares y los elementos de las corporaciones policiacas empiezan a resguardarse y amurallarse, ante el temor de que los fueran a matar.</p>
+                          <p>Military and police units begin to operate behind their headquarters, as more of their members are targetted.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Julio 2010 -->
+                    <!-- July 2010 -->
                     <li id="2010-jul">
                       <div class="month">
-                        <h4>Julio</h4>
+                        <h4>July</h4>
                       </div>
                     </li>
                     <!-- 46 -->
@@ -853,51 +851,51 @@
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Emboscada</h4>
+                          <h4 class="timeline-title">Ambush</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se presenta una emboscada contra policías federales tras varios ataques directos, se detona un coche bomba después de la captura de Jesús Armando Acosta alías el “35” familias de El Diego cabecilla del grupo criminal La Línea.</p>
+                          <p>A car bomb directed to attack Federal Police goes off after the police arrest Jesús Armando Acosta alias "el 35", a blood relative of El Diego of La Linea.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Agosto 2010 -->
-                    <li id="2010-ago">
+                    <!-- August 2010 -->
+                    <li id="2010-aug">
                       <div class="month">
-                        <h4>Agosto</h4>
+                        <h4>August</h4>
                       </div>
                     </li>
                     <!-- 47 -->
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">30 cuerpos por día</h4>
+                          <h4 class="timeline-title">30 bodies per day</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Se llegaron a reportar 30 cuerpos, en cuatro años se incrementó hasta un mil por ciento o 10 veces más la cifra registrada en años tranquilos.</p>
+                          <p>30 murders were reported. In 4 years the crime rate went up a thousand percent or 10 times the numbers registered in previous years.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Octubre 2010 -->
+                    <!-- October 2010 -->
                     <li id="2010-oct">
                       <div class="month">
-                        <h4>Octubre</h4>
+                        <h4>October</h4>
                       </div>
                     </li>
                     <!-- 48 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Record en asesinatos</h4>
+                          <h4 class="timeline-title">Killings Record</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Cierra con un record 352 homicidios tipo ejecución mayoría son jóvenes.</p>
+                          <p>Closes with a record of 352 homicides, most of them execution style, and most of the victims young people.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Noviembre 2010 -->
+                    <!-- November 2010 -->
                     <li id="2010-nov">
                       <div class="month">
-                        <h4>Noviembre</h4>
+                        <h4>November</h4>
                       </div>
                     </li>
                     <!-- 49 -->
@@ -905,27 +903,27 @@
                       <div class="timeline-badge info"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">Detención de Arturo Gallegos</h4>
+                          <h4 class="timeline-title">Arturo Gallegos aprehended</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>La Policía Federal  detuvo Arturo Gallegos Castrellón, El Farmero, señalado como el principal líder de la pandilla Los Aztecas, al que se le atribuyen, los homicidios de dos empleados del consulado de Estados Unidos en esa ciudad fronteriza; Los Aztecas es una pandilla vinculada a La Línea, el brazo armado del cártel de Juárez.</p>
+                          <p>Federal Police arrested Arturo Gallegos Castrellón "El Farmero", one of the top members of the gang "Los aztecas", and charged him with participating in the murder of the U.S. Consulate employees.</p>
                         </div>
                       </div>
                     </li>
-                    <!-- Diciembre 2010 -->
-                    <li id="2010-dic">
+                    <!-- December 2010 -->
+                    <li id="2010-dec">
                       <div class="month">
-                        <h4>Diciembre</h4>
+                        <h4>December</h4>
                       </div>
                     </li>
                     <!-- 50 -->
                     <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">3120 víctimas</h4>
+                          <h4 class="timeline-title">3120 víctims</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>El año en que Juárez alcanza su máximos niveles en números de homicidios 3 mil 120 víctimas (casi 500 más que el año 2009 y más de mil 500 que las registradas en el 2008).</p>
+                          <p>This year, Juárez reaches the highest number of murders: 3,120 -- 500 more than in 2009.</p>
                         </div>
                       </div>
                     </li>
@@ -933,7 +931,7 @@
                     <li>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-                          <h4 class="timeline-title">300 mujeres asesinadas</h4>
+                          <h4 class="timeline-title">300 women killed</h4>
                         </div>
                         <div class="timeline-body">
                           <p>Las carpetas de investigación arrojaban 300 mujeres asesinadas (incluyendo a la activista Marisela Escobedo) mientras las estadísticas señalaban que Juárez era la ciudad más violenta del país y del mundo.</p>
@@ -945,10 +943,10 @@
                 </div>
               </div>
               
-              <!-- Sucesos sociales -->
+              <!-- Social Hapennings -->
               <div role="tabpanel" class="tab-pane" id="messages">
                 <div class="container">
-                <h3>Sucesos sociales</h3>
+                <h3>Social Happennings</h3>
                 <ul class="timeline">
                   <!-- 2007 -->
                   <li id="2007-sociales">
@@ -956,75 +954,75 @@
                       <h4>2007</h4>
                     </div>
                   </li>
-                  <!-- Marzo 2007 -->
+                  <!-- March 2007 -->
                   <li id="2007-mar-sociales">
                     <div class="month">
-                      <h4>Marzo</h4>
+                      <h4>March</h4>
                     </div>
                   </li>
                   <!-- 1 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Autoridades estimaban que había en Juárez unas 616 pandillas dedicadas a la comisión de delitos, principalmente al narcomenudeo, cuatro de ellas  clasificadas como muy peligrosas: Los Aztecas, Mexicles y Artistas Asesinos o Doble A.</p>
+                        <p>Authorities estimated that there were 616 gangs dedicated to crimes, mainly to drug dealing, four of them were classified as extremely dangerous, including The Aztecas, Mexicles, Asassin Artist or Double A.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-                  <!-- Mayo 2007 -->
+                  <!-- May 2007 -->
                   <li id="2007-may-sociales">
                     <div class="month">
-                      <h4>Mayo</h4>
+                      <h4>May</h4>
                     </div>
                   </li>
                   <!-- 2 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Líderes de las pandillas Los Mexicles y Los Aztecas firman un acuerdo de no agresión, en presencia de Derechos Humanos.</p>
+                          <p>Leaders of the gangs "Los Mexicles" and "Los Aztecas" sign a no aggression pact organized by the state human rights commission.</p>
                         </div>
                       </div>
                   </li>
-                  <!-- Julio 2007 -->
+                  <!-- July 2007 -->
                   <li id="2007-jul-sociales">
                     <div class="month">
-                      <h4>Julio</h4>
+                      <h4>July</h4>
                     </div>
                   </li>
                   <!-- 3 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Había 400 Asociaciones Civiles trabajando a favor de diferentes causas en Chihuahua, 300 de ellas en Juárez.</p>
+                        <p>There were 400 civilian non-governmental organizations in the state of Chihuahua. At lest 300 of them were based in Juárez.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-                  <!-- Noviembre 2007 -->
+                  <!-- November 2007 -->
                   <li id="2007-nov-sociales">
                     <div class="month">
-                      <h4>Noviembre</h4>
+                      <h4>November</h4>
                     </div>
                   </li>
                   <!-- 4 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Pandillas de la ciudad comenzaron a reclutar niños de hasta 10 años de edad para cometer delitos como robo, lesiones, daños y homicidios.</p>
+                          <p>Gangs of the city started recruiting kids as young as 10 years to stage robberies, attacks and homicides.</p>
                         </div>
                       </div>
                   </li>
-                  <!-- Diciembre 2007 -->
+                  <!-- December 2007 -->
                   <li id="2007-doc-sociales">
                     <div class="month">
-                      <h4>Diciembre</h4>
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 5 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>327 mil 438 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
+                        <p>327,438 Juarez residents work in Juarez-based American assembly plants called maquilas.</p>
                       </div>
                     </div>
                   </li>
@@ -1036,46 +1034,46 @@
                       <h4>2008</h4>
                     </div>
                   </li>
-                  <!-- Enero 2008 -->
-                  <li id="2008-ene-sociales">
+                  <!-- January 2008 -->
+                  <li id="2008-jan-sociales">
                     <div class="month">
-                      <h4>Enero</h4>
+                      <h4>January</h4>
                     </div>
                   </li>
                   <!-- 6 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>249 mil 837 juarenses trabajaban en la maquiladora.</p>
+                          <p>The Army takes control of the city, implementing a security strategy code-named Joint Operation Chihuahua.</p>
                         </div>
                       </div>
                   </li>
-                  <!-- Marzo 2008 -->
+                  <!-- March 2008 -->
                   <li id="2008-mar-sociales">
                     <div class="month">
-                      <h4>Marzo</h4>
+                      <h4>March</h4>
                     </div>
                   </li>
                   <!-- 7 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>El Ejercito toma el control de la ciudad a través de la estrategía de seguridad denominada Operación Conjunta Chihuahua.</p>
+                        <p>From 2004 to 2008 Juárez assumed Mexico's highest number of public-funded housing, reaching a total number of 110 thousand.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-                  <!-- Diciembre 2008 -->
-                  <li id="2008-dic-sociales">
+                  <!-- December 2008 -->
+                  <li id="2008-dec-sociales">
                     <div class="month">
-                      <h4>Diciembre</h4>
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 8 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>De 2004 a 2008 Juárez fue el municipio del país en donde se construyeron más casas con financiamiento del Infonavit: casi 110 mil.</p>
+                          <p>322,737 Juarez workers were registered in the Mexican Institute of Social Security (IMSS)</p>
                         </div>
                       </div>
                   </li>
@@ -1083,7 +1081,7 @@
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>322,737 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
+                        <p>The maquilas began massive layoffs of workers, or reduced their working week from 5 to 3 days because of the violence. </p>
                       </div>
                     </div>
                   </li>
@@ -1096,46 +1094,46 @@
                     </div>
                   </li>
 
-                  <!-- Enero 2009 -->
-                  <li id="2009-ene-sociales">
+                  <!-- January 2009 -->
+                  <li id="2009-jan-sociales">
                     <div class="month">
-                      <h4>Enero</h4>
+                      <h4>January</h4>
                     </div>
                   </li>
                   <!-- 10 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Las maquiladoras comenzaron despidos masivos o sólo contratar a sus empleados por tres días.</p>
+                          <p>Employment at the local maquilas reached a historical low with only 166,454 workers</p>
                         </div>
                       </div>
                   </li>
-                  <!-- Junio 2009 -->
+                  <!-- June 2009 -->
                   <li id="2009-jun-sociales">
                     <div class="month">
-                      <h4>Junio</h4>
+                      <h4>June</h4>
                     </div>
                   </li>
                   <!-- 11 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>El empleo en las maquiladoras llegó a su mínimo histórico con 166 mil 454 trabajadores.</p>
+                        <p>302 thousand 365 Juarez workers were registered in the Mexican public medical system, IMSS</p>
                       </div>
                     </div>
                   </li>
                   <li>
-                  <!-- Diciembre 2009 -->
-                  <li id="2009-dic-sociales">
+                  <!-- December 2009 -->
+                  <li id="2009-dec-sociales">
                     <div class="month">
-                      <h4>Diciembre</h4>
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 12 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>302 mil 365 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
+                          <p>On the night of January 30, an armed commando enters the working-class neighborhood of Villas de Salvacar, killing 11 youth and four adults. Most of the victims were high school students not engaged in gangs.</p>
                         </div>
                       </div>
                   </li>
@@ -1147,17 +1145,17 @@
                     </div>
                   </li>
 
-                  <!-- Enero 2010 -->
-                  <li id="2010-ene-sociales">
+                  <!-- January 2010 -->
+                  <li id="2010-jan-sociales">
                     <div class="month">
-                      <h4>Enero</h4>
+                      <h4>January</h4>
                     </div>
                   </li>
                   <!-- 13 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>La noche del 30 de enero ocurre la masacre de Villas de Salvarcar, donde son asesinadas 15 personas, en su mayoría estudiantes de preparatoria, tras una aparente confusión.</p>
+                        <p>On January 14 the Army's Joint Operation Chihuahua changes strategy and becomes Coordinated Operation Chihuahua, with higher presence of the Federal Police in the city.</p>
                       </div>
                     </div>
                   </li>
@@ -1166,128 +1164,130 @@
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>La noche del 30 de enero ocurre la masacre de Villas de Salvarcar, donde son asesinadas 15 personas, en su mayoría estudiantes de preparatoria, tras una aparente confusión.</p>
+                          <p>Paramedics and other medical personnel working for the Mexican social security system, IMSS, march in mass through the city to protest the increasing wave of kidnappings and extorsions the medical profession was facing.</p>
                         </div>
                       </div>
                   </li>
 
-                  <!-- Febrero 2010 -->
+                  <!-- February 2010 -->
                   <li id="2010-feb-sociales">
                     <div class="month">
-                      <h4>Febrero</h4>
+                      <h4>February</h4>
                     </div>
                   </li>
                   <!-- 15 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>La noche del 30 de enero ocurre la masacre de Villas de Salvarcar, donde son asesinadas 15 personas, en su mayoría estudiantes de preparatoria, tras una aparente confusión.</p>
+                        <p>February 12th. María Dávila, mother of Marcos and José Luis Piña Dávila, two of the 15 victims murdered in Villas de Salvacar confronted President of Felipe Calderón: "What would you do if they were your children...", "I am not happy that you are here", "I want you to put yourself in my place...", "My two children were killed", Davila cried out.</p>
                       </div>
                     </div>
                   </li>
                   <li>
+
                   <!-- 16 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>La noche del 30 de enero ocurre la masacre de Villas de Salvarcar, donde son asesinadas 15 personas, en su mayoría estudiantes de preparatoria, tras una aparente confusión.</p>
+                          <p>900 gangs were in place, most of them worked as sicarios for the drug cartels.</p>
                         </div>
                       </div>
                   </li> 
 
-                  <!-- Marzo 2010 -->
+                  <!-- March 2010 -->
                   <li id="2010-mar-sociales">
                     <div class="month">
-                      <h4>Marzo</h4>
+                      <h4>March</h4>
                     </div>
                   </li>
                   <!-- 17 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>12 de febrero. Después de la masacre de Villas de Salvarcar, el presidente Felipe Calderón Hinojosa, y su esposa, Margariza Zavala, visitaron Ciudad Juárez. / FCH presenta el pla de trabajo “Todos Somos Juárez, Reconstruyamos la Ciudad”, en la que autoridades y organizaciones sociales forman mesas de trabajo. </p>
+                        <p>It is announced that the Mexican Army is in charge only of special operations in the city, while the Federal Police and Transit patrol city streets.</p>
                       </div>
                     </div>
                   </li>
                   <li>
                   
 
-                  <!-- Abril 2010 -->
-                  <li id="2010-abr-sociales">
+                  <!-- April 2010 -->
+                  <li id="2010-apr-sociales">
                     <div class="month">
-                      <h4>Abril</h4>
+                      <h4>April</h4>
                     </div>
                   </li>
                   <!-- 18 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>12 de febrero. María Dávila, mamá de Marcos y José Luis Piña Dávila, dos de los 15 jóvenes asesinados en Villas de Salvarcar encaró al presidente Felipe Calderón y le dio la espalda: “Qué haría si fueran sus hijos…”, “A mí no me da gusto que venga”, “quiero que se ponga en mi lugar... me mataron a mis dos únicos hijos”, reclamó la mamá al presidente de México.</p>
+                          <p>February 12th, After the massacre of Villas de Salvacar, President Felipe Calderón Hinojosa, and his wife, Margarita Zavala, visited Ciudad Juárez. The president presents the government plan "Everyone is Juárez, Lets Rebuild the City", under which authorities and civic organizations begin to work together.</p>
                         </div>
                       </div>
+                  </li>
+
+                  <!-- July 2010 -->
+                  <li id="2010-jul-sociales">
+                    <div class="month">
+                      <h4>July</h4>
+                    </div>
                   </li>
                   <!-- 19 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Ya existían 900 gangas, muchas de ellas convertidas en los brazos ejecutores del narco. </p>
+                        <p>On July 15, a car bomb explodes in downtown Juarez. Two people die, including a local doctor who tried help a victim and a police officer.</p>
                       </div>
                     </div>
                   </li>
                   <li>
                 
-                  <!-- Julio 2010 -->
-                  <li id="2010-jul-sociales">
-                    <div class="month">
-                      <h4>Julio</h4>
-                    </div>
-                  </li>
                   <!-- 20 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>El 16 de julio atacan con un “coche-bomba” a agentes de la Policía Federal en el centro de la ciudad. Mueren tres personas: un civil al que disfrazaron como policía municipal para llamar la atención de los federales, un médico y un paramédicoque se acercaron a ayudarlo. </p>
+                          <p>Juárez citizens grow upset with Federal Police presence, as they blame them for the increase in extortions. </p>
                         </div>
                       </div>
                   </li>
+
+                  <!-- October 2010 -->
+                  <li id="2010-oct-sociales">
+                    <div class="month">
+                      <h4>October</h4>
+                    </div>
+                  </li>
+
                   <!-- 21 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Juarenses piden que se vayan los federales de la ciudad, debido al aumento de extorsiones que se presentó con su llegada.</p>
+                        <p>The night of october 23 another masacre injuries the city in the neighborhood of the Horizontes del Sur, where 15 people are murdered in the 15th birthday of a young man.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-                  
 
-                  <!-- Octubre 2010 -->
-                  <li id="2010-oct-sociales">
+                  <!-- December 2010 -->
+                  <li id="2010-dec-sociales">
                     <div class="month">
-                      <h4>Octubre</h4>
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 22 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>La noche del 23 de octubre otra masacre duele a la ciudad en la colonia Horizontes del Sur, donde 15 personas son asesinadas cuando festejaban los 15 años de un adolescente. </p>
+                          <p>312 thousand 920 workers from Juárez were registered to the IMSS.</p>
                         </div>
                       </div>
                   </li>
-                  
 
-                  <!-- Diciembre 2010 -->
-                  <li id="2010-dic-sociales">
-                    <div class="month">
-                      <h4>Diciembre</h4>
-                    </div>
-                  </li>
                   <!-- 23 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>La noche del 23 de octubre otra masacre duele a la ciudad en la colonia Horizontes del Sur, donde 15 personas son asesinadas cuando festejaban los 15 años de un adolescente. </p>
+                        <p>Ciudad Juárez was the mexican city with the highest number of inhabited hauses, almost 23% percent. People fleed with fear to violence and unemployment from the assembly lines.</p>
                       </div>
                     </div>
                   </li>
@@ -1296,7 +1296,7 @@
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Ciudad Juárez era la ciudad mexicana con mayor número de casas deshabitatas, casi un 23%. La gente huyó por miedo a la violencia y el desempleo en la maquiladora.</p>
+                          <p>The work stoppages made by the medics that work in both private and public institutions continue, this time with the support of more sectors and the catholic church.</p>
                         </div>
                       </div>
                   </li>
@@ -1304,20 +1304,11 @@
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Los paros de labores de los médicos que laboran en instituciones públicas y privadas en la ciudad para protestar contra la violencia en la ciudad continúan, esta vez con el apoto de otros sectoes y la iglesia católica.</p>
+                        <p>While the violence was in its peak in the city, civic organizations like "Ciudadanos Comprometidos por la Paz" (Ccompaz) worked with hundreds of kids. Ccompa "recruited" 150 kids and adolescents of poor homes and armed them with a musical instrument to form a musical orchestra.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-                  <!-- 26 -->
-                  <li class="timeline-inverted">
-                      <div class="timeline-panel">
-                        <div class="timeline-body">
-                          <p>Mientras la delincuencia estaba en su máximo apogeo en la ciudad, organizaciones civiles como Ciudadanos Comprometidos con la Paz (Ccompaz) trabajaban con cientos de niños. Ccompaz “reclutó” a 150 niños y adolescentes de escasos recursos y los armó con un instrumento musical para formar una orquesta músical.</p>
-                        </div>
-                      </div>
-                  </li>
-                  
 
                   <!-- 2011 -->
                   <li id="2011-sociales">
@@ -1325,67 +1316,67 @@
                       <h4>2011</h4>
                     </div>
                   </li>
-                  <!-- Febrero 2011 -->
+                  <!-- February 2011 -->
                   <li id="2011-feb-sociales">
                     <div class="month">
-                      <h4>Febrero</h4>
+                      <h4>February</h4>
+                    </div>
+                  </li>
+                  <!-- 26 -->
+                  <li class="timeline-inverted">
+                      <div class="timeline-panel">
+                        <div class="timeline-body">
+                          <p>February first of 2011 the Sports Unit Villas de Salvacar was funded, a year later of the killing of 15 young kids.</p>
+                        </div>
+                      </div>
+                  </li>
+                  
+                  <!-- March 2011 -->
+                  <li id="2011-mar-sociales">
+                    <div class="month">
+                      <h4>March</h4>
                     </div>
                   </li>
                   <!-- 27 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>El 1 de febrero de 2011 se inauguró la Unidad Deportiva Villas de Salvarcar, en la colonia donde un año antes fueron masacrados 15 jóvenes.</p>
+                        <p>On March 10, 2011 Ret. Army Col. Julían Leyzaola Pérez was named Secretary of Public Security(SSPM), in charge of the city's municipal police. He arrived in his new post with a dark cloud and accusations of human rights violations in his last post as police chief of the border city of Tijuana.</p>
                       </div>
                     </div>
                   </li>
                   <li>
 
-                  <!-- Marzo 2011 -->
-                  <li id="2011-mar-sociales">
+                  <!-- April 2011 -->
+                  <li id="2011-apr-sociales">
                     <div class="month">
-                      <h4>Marzo</h4>
+                      <h4>April</h4>
                     </div>
                   </li>
                   <!-- 28 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>El 10 de marzo de 2011, el teniente coronel Julián Leyzaola Pérez, fue nombrado Secretario de Seguridad Pública Municipal (SSPM). Aunque se dijo que mejoró la seguridad en Tijuana, también se levantario denuncias ante Derechos Humanos en su contrata por tortura de civiles.</p>
+                          <p>With no other major educative oportunities, mainly in high school level, cultural or of healthy recreation, in the northwest of Juárez the number of gangs and minors that commited crimes rised.</p>
                         </div>
                       </div>
                   </li>
 
-                  <!-- Abril 2011 -->
-                  <li id="2011-abr-sociales">
+                  <!-- December 2011 -->
+                  <li id="2011-dec-sociales">
                     <div class="month">
-                      <h4>Abril</h4>
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 29 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Sin mayores oportunidades educativas (principalmente peparatorias), culturales y de sana recreación, en el norponiente, centro-poniente y suroriente de Ciudad Juárez se concentró la mayor cantidad de pandillas y menores que delinquen.</p>
+                        <p>313 thousand 994 Juárez workers were registered in the Mexican state medical insurance, IMSS.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-
-                  <!-- Diciembre 2011 -->
-                  <li id="2011-dic-sociales">
-                    <div class="month">
-                      <h4>Diciembre</h4>
-                    </div>
-                  </li>
-                  <!-- 30 -->
-                  <li class="timeline-inverted">
-                      <div class="timeline-panel">
-                        <div class="timeline-body">
-                          <p>313 mil 994 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
-                        </div>
-                      </div>
-                  </li>
 
                   <!-- 2012 -->
                   <li id="2012-sociales">
@@ -1393,33 +1384,41 @@
                       <h4>2012</h4>
                     </div>
                   </li>
-                  <!-- Septimbre 2012 -->
+                  <!-- September 2012 -->
                   <li id="2012-sep-sociales">
                     <div class="month">
-                      <h4>Septimbre</h4>
+                      <h4>September</h4>
+                    </div>
+                  </li>
+                  <!-- 30 -->
+                  <li class="timeline-inverted">
+                      <div class="timeline-panel">
+                        <div class="timeline-body">
+                          <p>Murders went down in Juarez, but citizen reports about police abuse increased,especially against youth.</p>
+                        </div>
+                      </div>
+                  </li>
+
+                  <!-- October 2012 -->
+                  <li id="2012-oct-sociales">
+                    <div class="month">
+                      <h4>October</h4>
                     </div>
                   </li>
                   <!-- 31 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>En Juárez viven alrededor de 227 mil niños de cero a cinco años de edad, pero sólo cerca del 30 por ciento de ellos tiene acceso a los servicios de preescolar, y un porcentaje aún menor a guarderías o estancias infantiles: Universidad Autónoma de Ciudad Juárez (UACJ).</p>
+                        <p>In Juárez, there were 227, thousand children form young infants to 5-years-old. Only 3 of every 10 child had acess to the preschool services, and an even lower number to childcare, according to figures from The Autonomous University of Juarez, UACJ.</p>
                       </div>
                     </div>
                   </li>
                   <li>
-
-                  <!-- Octubre 2012 -->
-                  <li id="2012-oct-sociales">
-                    <div class="month">
-                      <h4>Octubre</h4>
-                    </div>
-                  </li>
                   <!-- 32 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Julián Leyzaola Pérez (SSPM), ordena a los municipales detener a todas las personas que parezcan sospechosas, no porten una identificación oficial o tengan aspecto de delincuente. Con esta medida los policías detuvieron a miles de albañiles, lava-carros, parqueros y gente de escasos recursos, quienes permanecían detenidos durante 12 horas o tenían que pagar una multa de 800 pesos.</p>
+                          <p>Municipal Police Chief Julían Leyzaola Pérez issues a controversial order to stop any person who appears suspicious and has no official ID. With this mandate policemen stopped thousands of construction workers, car-washers, "parqueros" and low-income people, who were hauled to jail for 12 hours and had to pay US$50 dollars to get out.</p>
                         </div>
                       </div>
                   </li>
@@ -1427,38 +1426,21 @@
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Los homicidios disminuyeron en la ciudad, pero aumentaron los abusos por parte de agentes municipales, principalmente contra estudiantes y jóvenes.</p>
+                        <p>As part of the program "We all Eat", the city of Juárez distributed 400 thousand chickens in low income neighborhoods.</p>
                       </div>
+                    </div>
+                  </li>
+                  <!-- December 2012 -->
+                  <li id="2012-dec-sociales">
+                    <div class="month">
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 34 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Como parte del Programa Cenamos Todos, el municipio de Juárez repartió 400 mil pollos en las colonias más marginadas.</p>
-                        </div>
-                      </div>
-                  </li>
-                  <!-- 35 -->
-                  <li>
-                    <div class="timeline-panel">
-                      <div class="timeline-body">
-                        <p>La cifra de niños con depresión debido a la percepción de soledad, descontrol alimenticio, falta de seuño y bajo reindimiento escolar aumentó un 50% en los casoa atendidos en el Centro de Crisis Casa Amiga.</p>
-                      </div>
-                    </div>
-                  </li>
-                  
-                  <!-- Diciembre 2012 -->
-                  <li id="2012-dic-sociales">
-                    <div class="month">
-                      <h4>Diciembre</h4>
-                    </div>
-                  </li>
-                  <!-- 36 -->
-                  <li class="timeline-inverted">
-                      <div class="timeline-panel">
-                        <div class="timeline-body">
-                          <p>333 mil 879 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
+                          <p>Child depression cases increased  by 50 percent according to a crisis center ran by Casa Ammiga. It expressed itself in food disorders, lack of sleep and low school performance.</p>
                         </div>
                       </div>
                   </li>
@@ -1469,17 +1451,41 @@
                       <h4>2013</h4>
                     </div>
                   </li>
-                  <!-- Enero 2013 -->
-                  <li id="2013-ene-sociales">
+                  <!-- January 2013 -->
+                  <li id="2013-jan-sociales">
                     <div class="month">
-                      <h4>Enero</h4>
+                      <h4>January</h4>
+                    </div>
+                  </li>
+                  <!-- 35 -->
+                  <li>
+                    <div class="timeline-panel">
+                      <div class="timeline-body">
+                        <p>333 thousand 879 Juárez workers were registered in the IMSS.</p>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <!-- 36 -->
+                  <li class="timeline-inverted">
+                      <div class="timeline-panel">
+                        <div class="timeline-body">
+                          <p>It is estimated that more than 10 thousand children were orphaned because of the violence of Juárez.</p>
+                        </div>
+                      </div>
+                  </li>
+
+                  <!-- October 2013 -->
+                  <li id="2013-oct-sociales">
+                    <div class="month">
+                      <h4>October</h4>
                     </div>
                   </li>
                   <!-- 37 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Organizaciones civiles estimaban que más de 10 mil niños habían quedado huerfanos a raíz de la violencia en Juárez.</p>
+                        <p>From 2010 to 2012 the Federal Government invested an approximate US$300 million dollars to invest in social programs and urban upgrade projects in Juarez.</p>
                       </div>
                     </div>
                   </li>
@@ -1487,22 +1493,22 @@
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>De 2010 a 2012 el Gobierno Federal invirtió más de 5 mil millones de pesos para reconstruir el tejido social y desarrollar infraestructura urbana de Juárez.</p>
+                          <p>Hector "Teto" Murguía Lardizabal gave his last government report at a event that cost an estimated half a million dollars.</p>
                         </div>
                       </div>
                   </li>
 
-                  <!-- Octubre 2013 -->
-                  <li id="2013-oct-sociales">
+                  <!-- November 2013 -->
+                  <li id="2013-nov-sociales">
                     <div class="month">
-                      <h4>Octubre</h4>
+                      <h4>November</h4>
                     </div>
                   </li>
                   <!-- 39 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Héctor “Teto” Murguía Lardizábal dio su último informe de gobierno. La organización del evento tuvo un costo mínimo de 4.5 millones de pesos.</p>
+                        <p>During the administration of Murguia, about US$7 million dollars were given by the federal government for the construction of 50 community social centers that were to benefit more than 350 thousand people, according to authorities.</p>
                       </div>
                     </div>
                   </li>
@@ -1510,30 +1516,31 @@
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Durante la administración de “Teto” se gestionaron más de 700 millones de pesos al gobierno federal para la infraestructura, construcción y equipamiento de 50 centros comunitaros, que benefician a más de 350 mil personas, según las autoridades.</p>
+                          <p>It was discovered that gang members were students from junior high school to college. Gang affiliation was promoted by weak family structures, according to Casa Amiga.</p>
                         </div>
                       </div>
                   </li>
-
-                  <!-- Noviembre 2013 -->
-                  <li id="2013-nov-sociales">
-                    <div class="month">
-                      <h4>Noviembre</h4>
-                    </div>
-                  </li>
+    
                   <!-- 41 -->
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>Estudiantes desde secundariaa universidad formaron parte de las más de 900 pandillas de Ciudad Juárez, debido a los problemas como la desintegración familiar.</p>
+                        <p>At least US$9 million dollars were not properly accounted for at the end of the Murguía Lardizabal Administrationn as mayor of Juarez, according to Chihuahua's 2012 Public Accountability Report and another technical report sent by the the State Auditor to the Mexican Congress.</p>
                       </div>
+                    </div>
+                  </li>
+
+                  <!-- December 2013 -->
+                  <li id="2013-dec-sociales">
+                    <div class="month">
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 42 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>Al menos 111 millones de pesos de recursos públicos no fueron justificados o solventados por la administración del alcalde de Ciudad Juárez, Héctor Murguía Lardizábal, arrojó la revisión de la Cuenta Pública 2012 y del reporte técnico enviado por la Auditoría Superior del Estado al Congreso del Estado.</p>
+                          <p>The NGO Citizens Committed to Find Peace, Ccompaz, recruited 700 children and youth from 9 to 16 years old to participate with their musical orchestra. The objective is to keep them away from streets and violence.</p>
                         </div>
                       </div>
                   </li>
@@ -1541,81 +1548,56 @@
                   <li>
                     <div class="timeline-panel">
                       <div class="timeline-body">
-                        <p>La organización Ciudadanos Comprometidos con la Paz (Ccompaz) ya contaba con 700 niños de los 9 a los 16 años en su orquesta músical. El fin es alejarlos de las calles y de la violencia.</p>
+                        <p>345,732 Juárez workers were registered in the IMSS.</p>
                       </div>
                     </div>
                   </li>
                   
-                  <!-- Diciembre 2013 -->
-                  <li id="2013-dic-sociales">
-                    <div class="month">
-                      <h4>Diciembre</h4>
-                    </div>
-                  </li>
-                  <!-- 44 -->
-                  <li class="timeline-inverted">
-                      <div class="timeline-panel">
-                        <div class="timeline-body">
-                          <p>345 mil 732 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
-                        </div>
-                      </div>
-                  </li>
-                  <!-- 45 -->
-                  <li>
-                    <div class="timeline-panel">
-                      <div class="timeline-body">
-                        <p>De 2010 a 2013 el gobierno municipal destinó 2 mil 215 millones de pesos en Seguridad Pública.</p>
-                      </div>
-                    </div>
-                  </li>
-
                   <!-- 2014 -->
                   <li id="2014-sociales">
                     <div class="year">
                       <h4>2014</h4>
                     </div>
                   </li>
-                  <!-- Junio 2014 -->
+                  <!-- June 2014 -->
                   <li id="2014-jun-sociales">
                     <div class="month">
-                      <h4>Junio</h4>
+                      <h4>June</h4>
+                    </div>
+                  </li>                  
+                  <!-- 44 -->
+                  <li class="timeline-inverted">
+                      <div class="timeline-panel">
+                        <div class="timeline-body">
+                          <p>From 2010 to 2013 Juarez city government invested more than US$133 million dollars in Public Security.</p>
+                        </div>
+                      </div>
+                  </li>
+                  <!-- October 2014 -->
+                  <li id="2014-oct-sociales">
+                    <div class="month">
+                      <h4>October</h4>
+                    </div>
+                  </li>
+                  <!-- 45 -->
+                  <li>
+                    <div class="timeline-panel">
+                      <div class="timeline-body">
+                        <p>363,653 workers were registered in the IMSS</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- December 2014 -->
+                  <li id="2014-dec-sociales">
+                    <div class="month">
+                      <h4>December</h4>
                     </div>
                   </li>
                   <!-- 46 -->
                   <li class="timeline-inverted">
                       <div class="timeline-panel">
                         <div class="timeline-body">
-                          <p>363 mil 653 trabajadores juarenses estaban registrados ante el Instituto Mexicano del Seguro Social. </p>
-                        </div>
-                      </div>
-                  </li>
-                  
-                  <!-- Octubre 2014 -->
-                  <li id="2014-oct-sociales">
-                    <div class="month">
-                      <h4>Octubre</h4>
-                    </div>
-                  </li>
-                  <!-- 47 -->
-                  <li>
-                    <div class="timeline-panel">
-                      <div class="timeline-body">
-                        <p>La maquiladora alcanza su máximo histórico en la generación de empleo en Juárez, con 261 mil 635 trabajadores.</p>
-                      </div>
-                    </div>
-                  </li>
-
-                  <!-- Diciembre 2014 -->
-                  <li id="2014-dic-sociales">
-                    <div class="month">
-                      <h4>Diciembre</h4>
-                    </div>
-                  </li>
-                  <!-- 48 -->
-                  <li class="timeline-inverted">
-                      <div class="timeline-panel">
-                        <div class="timeline-body">
-                          <p>Aunque el número de AC no ha aumentado, sí tuvieron que incrementar servicios, como la atención a víctimas de la violencia.</p>
+                          <p>The maquila industries increases its job ranks in Juarez to 261,635 workers.</p>
                         </div>
                       </div>
                   </li>
